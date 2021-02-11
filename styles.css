@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+}
+
+.content {
+    height: 200vh;
+    /*background-color: palevioletred;*/
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-height: 70%;
+    max-width: 70%;
+    cursor: pointer;
+}
+
+.nav-items {
+    width: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+.about {
+    color: rgb(4, 180, 156);
+    cursor: pointer;
+}
+
+.grey-color {
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+
+header::before,
+header::after {
+ content: '';
+ display: block;
+ height: 16px;
+ position: sticky;
+}
+
+header::before {
+    top: 48px; /* 64 - 16 */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+   }
